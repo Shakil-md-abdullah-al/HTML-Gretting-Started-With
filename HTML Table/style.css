@@ -1,9 +1,28 @@
 .tit{
-    color:chartreuse;
+    color:blue;
+    text-decoration: darkred;
+    text-decoration-line: underline;
+    line-height: 40px;
 
+}
+.cap{
+    text-align: center;
+    font-size: 25px;
+    color:lime;
+    font-weight: bolder;
+    text-decoration:darkblue;
+    text-decoration-line: underline;
 }
 .tab{
     font-size: x-large;
     margin: 20px;
     padding:10px;
 }
+.tab2 {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-size: x-large;
+    margin: 20px;
+    padding:10px;
+}
+  }
