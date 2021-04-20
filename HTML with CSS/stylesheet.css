@@ -8,3 +8,12 @@
 .ext02{
     color:red;
 }
+
+.ext03{
+    font-size: x-large;
+    text-align: center;
+    text-decoration: darkred;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    line-height: 35px;
+}
