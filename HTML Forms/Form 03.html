@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 02</title>
+    <link rel="stylesheet" href="form3.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Portfoio</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>আমার ফরম</h2>
+    
+
+    <section class="fm">
+        <form action="actio.php" >
+            <label for="fname" class="f1">First Name</label><br>
+            <input type="text"class="f2" placeholder="Jjon Doe" required><br><br>
+
+            <label for="lname" class="f1">Last Name</label><br>
+            <input type="text" class="f2" placeholder="Mikial"><br><br>
+
+            <label for="email" class="f1">Email</label><br>
+            <input type="email" class="f2" placeholder="example@mail.com"><br><br>
+
+            <label for="date" class="f1">Date of Birth</label><br>
+            <input type="date" class="f2"><br><br>
+
+            <label for="phone"class="f1">Phone</label><br>
+            
+            <select class="f3">
+                <option value="+80">+880</option>
+                <option value="+99">+99</option>
+                <option value="+1">+1</option>
+                <option value="+14">+14</option>
+                <option value="+4">+4</option>
+            </select>
+            <input type="tel" class="f4" placeholder="01X XXXX XXXX"><br><br>
+
+            <label for="sex" class="f1">Sex</label><br><br>
+            <label for="male" style="margin-right: 30px;">Male</label>
+            <input type="radio" name="Male"checked="checked" value="Male"><br>
+            
+            <label for="female" style="margin-right: 6px;">Female</label>
+            <input type="radio" value="female">
+            <br><br>
+
+            <label for="password" class="f1">Password</label><br>
+            <input type="password" name="pwd" size="36" class="f2"> <br><br>
+
+            <label for="password" class="f1">Confirm Password</label><br>
+            <input type="password" name="pwd" size="36" class="f2"><br><br>
+
+            <label for="image" class="f1">Upload Avater</label><br>
+            <input type="file" class="fimg" multiple><br><br>
+
+            <label for="range" class="f1">Enter Range</label><br>
+            <input type="range" name="points" min="0" max="50"><br>
+            <input type="number"name="points"placeholder="Value" step="3"><br>
+
+            <input type="checkbox"> I have accepted all terms and conditions. <br><br>
+
+            <input type="button" value="Submit" class="sub">
+
+            <input type="button" value="Reset" class="res">
+
+        </form>
+    </section>
+
+    <footer>
+        My Footer
+    </footer>
+</body>
+</html>
