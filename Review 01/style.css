@@ -1,0 +1,168 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    margin: auto;
+    padding: auto;
+    background: lightblue;
+}
+
+nav {
+    padding: 15px;
+    background: coral;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    align-items: center;
+    margin: 25px;
+    background-color: cyan;
+    padding: 15px;
+    border-radius: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 600;
+    color:red;
+}
+
+nav ul li:hover{
+    background: blue;
+    text-color: white;
+}
+nav ul li a:hover{
+    color: white;
+}
+
+.left{
+    float: left;
+    width: 29%;
+    margin: 8px;
+    padding: 10px;
+    height: 600px;
+}
+.left h2{
+    background: chartreuse;
+    padding: 5px;
+    text-align: center;
+    border-radius: 12px;
+    color: cornsilk;
+}
+.left ul{
+    list-style: none;
+}
+.leftnav1 ul li{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 12px;
+    text-align: center;
+}
+.leftnav1 ul li:hover{
+    background: springgreen;
+    padding: 7px;
+}
+.leftnav1 ul li a{
+    color: red;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+.leftnav1 ul li a:hover{
+    color:white;
+}
+.leftnav2 ul li{
+    display: inline-block;
+    margin: 8px;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.leftnav2 ul li:hover{
+    background: black;
+    background-position: center;
+}
+.leftnav2 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: teal;
+}
+.leftnav2 ul li a:hover{
+    color: white;
+}
+.right{
+    float: left;
+    width: 65%;
+    margin: 8px;
+    padding: 10px;
+    height: 600px;
+}
+section::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+.num1{
+    background: silver;
+    margin-top: 20px;
+    padding: 10px;
+}
+.left2{
+    float: left;
+    width: 37%;
+    height: 350px;
+}
+.left2 img{
+    width: 90%;
+    height: 320px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border: 2px solid green;
+}
+.right2{
+    float: left;
+    width: 60%;
+    height: 350px;
+    padding: 10px;
+    margin-left: 10px;
+}
+.num1::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.footer1{
+    background: tomato;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size: larger;
+}
+
+@media (max-width:600px){
+    nav, nav ul li,.right,.left,.left1, .right2 {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        border: 2px solid black;
+        text-align: center;
+    }
+}
+@media (max-width:600px){
+    .left2 img{
+        width: 210%;
+        //height: auto;
+    }
+}
