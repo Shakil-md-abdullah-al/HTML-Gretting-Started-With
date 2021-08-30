@@ -143,15 +143,7 @@ section::after{
     display: table;
     clear: both;
 }
-.footer1{
-    background: tomato;
-    border: 2px solid black;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-    color: white;
-    font-size: larger;
-}
+
 .about h2{
     margin-right: 15px;
     padding: 20px;
@@ -231,8 +223,103 @@ section::after{
     background: green;
     color: white;
 }
+
+.slide{
+    background: greenyellow;
+}
+.left3{
+    background: grey;
+    float: left;
+    width: 29%;
+    margin: 8px;
+    padding: 10px;
+    height: 500px;
+}
+.left3 ul{
+    list-style: none;
+}
+
+.left3 ul li{
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 12px;
+    text-align: center;
+}
+.left3 ul li:hover{
+    background: palegreen;
+    padding: 7px;
+}
+.left3 ul li a{
+    font-size: 22px;
+    text-decoration: none;
+    color: lime;
+    font-weight: 600;
+}
+.left3 ul li a:hover{
+    color:black;
+}
+.left3 h2{
+    font-size: 25px;
+    background: blue;
+    padding: 8px;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    margin-left: 45px;
+}
+.right3{
+    float: left;
+    width: 67%;
+    margin: 8px;
+    padding: 10px;
+    height: 500px;
+    background:moccasin;
+}
+.right3 p{
+    margin-left: 10px;
+    text-align: left;
+    
+}
+
+.left4{
+    background: grey;
+    float: left;
+    width: 67%;
+    margin: 8px;
+    padding: 10px;
+    height: 400px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.right4{
+    background: grey;
+    float: left;
+    width: 29%;
+    margin: 8px;
+    padding: 10px;
+    height: 400px;
+}
+.vid video{
+    margin-top: 30px;
+}
+.vid::after{
+    content: " ";
+    display: table;
+    clear: both;
+}
+.footer1{
+    background: tomato;
+    border: 2px solid black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size: larger;
+}
 @media (max-width:600px){
-    nav, nav ul li,.right,.left,.left1, .right2, img,.contact{
+    nav, nav ul li,.right,.left,.left1, .right2, img,.contact,.slide,.vid,.left3, .right3,.left4, .right4{
         width: 100%;
         height: auto;
         margin: 0;
