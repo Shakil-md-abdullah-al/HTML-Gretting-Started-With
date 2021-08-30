@@ -13,8 +13,10 @@ body {
 }
 
 nav {
-    padding: 15px;
+    padding: 5px;
     background: coral;
+    border-radius: 12px;
+    margin-bottom: 10px;
 }
 nav ul{
     list-style: none;
@@ -150,9 +152,87 @@ section::after{
     color: white;
     font-size: larger;
 }
+.about h2{
+    margin-right: 15px;
+    padding: 20px;
+    font-size: 35px;
+    background: silver;
+    margin-left: 15px;
+    color: tomato;
+}
+.imag img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.txt p{
+    font-size: 20px;
+    line-height: 35px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
 
+.contact h2{
+    margin-left: 15px;
+    font-size: 35px;
+    background: white;
+    padding: 15px;
+    color: teal;
+    margin-right: 10px;
+}
+.contact p{
+    margin-left: 15px;
+    font-size: 18px;
+    line-height: 35px;
+    margin-right: 10px;
+}
+.fm{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border: 1px solid black;
+    background: thistle;
+}
+.f1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.f2{
+    width: 60%;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+.msg{
+    width: 60%;
+    margin-left: 25px;
+    margin-top: 25px;
+    border: 1px solid black;
+}
+.sub{
+    font-size: larger;
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 600;
+    width: 200px;
+    border-radius: 12px;
+}
+.sub:hover{
+    background: green;
+    color: white;
+}
 @media (max-width:600px){
-    nav, nav ul li,.right,.left,.left1, .right2 {
+    nav, nav ul li,.right,.left,.left1, .right2, img,.contact{
         width: 100%;
         height: auto;
         margin: 0;
@@ -164,5 +244,12 @@ section::after{
     .left2 img{
         width: 210%;
         //height: auto;
+    }
+}
+@media (max-width:600px){
+    .fm{
+        width: 100%;
+        //height: auto;
+        text-align: left;
     }
 }
