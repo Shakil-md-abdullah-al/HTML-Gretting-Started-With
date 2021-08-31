@@ -42,6 +42,7 @@ nav ul li:hover{
 }
 nav ul li a:hover{
     color: white;
+    padding: 8px;
 }
 
 .left{
