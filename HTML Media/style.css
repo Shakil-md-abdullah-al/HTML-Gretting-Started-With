@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: darkgrey;
+}
+
+.top{
+    background: brown;
+    padding: 8px;
+    border-radius: 12px;
+    color: cornsilk;
+    text-align: center;
+}
+
+.vid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background: cornflowerblue;
+    padding: 20px;
+}
+
+.vid h2{
+    background: darkorange;
+    margin-top: 20px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.mus{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background: cyan;
+    padding: 20px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.mus h2{
+    background: darkorange;
+    margin-top: 20px;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}

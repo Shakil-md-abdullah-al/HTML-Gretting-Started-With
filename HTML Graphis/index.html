@@ -30,6 +30,11 @@
         <canvas id="canvas4" width="200" height="100" style="border: 1px solid black;;"></canvas>
     </div>
 
+    <div class="txt2">
+        <h2>Draw Text 02</h2>
+        <canvas id="canvas5" width="200" height="100" style="border: 1px solid blue;"></canvas>
+    </div>
+
     <script>
         var c=document.getElementById("canvas1");
         var ctx = c.getContext("2d");
@@ -73,6 +78,11 @@
         ct4.fillText("Hello Shakil",10,50);
         ct4.stroke();
 
+        var c=document.getElementById("canvas5");
+        var ct5=c.getContext("2d");
+        ct5.font="30px Arial";
+        ct5.strokeText("Hello Shakil", 10, 50);
     </script>
+
 </body>
 </html>
