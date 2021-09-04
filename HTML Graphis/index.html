@@ -20,6 +20,16 @@
         <canvas id="canvas2" width="350" height="250" style="border:1px solid red"></canvas>
     </div>
 
+    <div class="cir">
+        <h2>Draw a circle</h2>
+        <canvas id="canvas3" width="200" height="100" style="border: 1px solid green;"></canvas>
+    </div>
+
+    <div class="txt">
+        <h2>Draw Text</h2>
+        <canvas id="canvas4" width="200" height="100" style="border: 1px solid black;;"></canvas>
+    </div>
+
     <script>
         var c=document.getElementById("canvas1");
         var ctx = c.getContext("2d");
@@ -50,6 +60,19 @@
         ctn.moveTo(0,125);
         ctn.lineTo(350,125);
         ctn.stroke();
+
+        var c=document.getElementById("canvas3");
+        var ct3=c.getContext("2d");
+        ct3.beginPath();
+        ct3.arc(95,50,40,0, 2* Math.PI);
+        ct3.stroke();
+
+        var c=document.getElementById("canvas4");
+        var ct4=c.getContext("2d");
+        ct4.font="30px Arial";
+        ct4.fillText("Hello Shakil",10,50);
+        ct4.stroke();
+
     </script>
 </body>
 </html>
